@@ -66,15 +66,14 @@ nav{
 nav > a {
     color: var(--cor1);
     padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    transition-duration: .5s;
 }
 nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    transition-duration: 0.8s;
 }
 main {
     background-color: white;
