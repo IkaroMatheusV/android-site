@@ -40,21 +40,21 @@ header {
 }
 header > h1 {
     color: white;
-    font-family: var(--font-destaque);
-    margin-bottom: 20px;
+    font-family: var(--fonte-destaque);
     font-size: 3em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.212);
     font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 header > p {
-    color: white;
-    font-family: var(--font-padrao);
+    font-family: var(--fonte-padrao);
     font-size: 1.2em;
+    color: white;
     max-width: 600px;
-    margin: auto;
-    padding-right: 10px ;
+    padding-right: 10px;
     padding-left: 10px;
-    margin-bottom: 50px;
+    margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 nav{
